@@ -103,7 +103,7 @@ export function main() {
     audioClipUrl: 'sounds/music.mp3',
     loop: true,
     playing: true,
-    volume: 0.5
+    volume: 0.8
   })
 
   setGaucho()

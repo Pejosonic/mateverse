@@ -2,7 +2,7 @@
   "ecs7": true,
   "runtimeVersion": "7",
   "display": {
-    "title": "beer-dispenser",
+    "title": "mateverse",
     "favicon": "favicon_asset",
     "description": "",
     "navmapThumbnail": "assets/scene/thumbnail.png"
@@ -45,9 +45,9 @@
       }
     }
   ],
-  "name": "beer-dispenser",
+  "name": "mateverse",
   "worldConfiguration": {
-    "name": "boedo.dcl.eth"
+    "name": "pejo.dcl.eth"
   },
   "featureToggles": {
     "voiceChat": "enabled",
