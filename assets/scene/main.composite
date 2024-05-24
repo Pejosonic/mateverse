@@ -740,7 +740,7 @@
         "518": {
           "json": {
             "src": "assets/scene/cow.glb",
-            "visibleMeshesCollisionMask": 1,
+            "visibleMeshesCollisionMask": 2,
             "invisibleMeshesCollisionMask": 2
           }
         },
@@ -845,7 +845,7 @@
         "535": {
           "json": {
             "src": "assets/scene/cow.glb",
-            "visibleMeshesCollisionMask": 1,
+            "visibleMeshesCollisionMask": 2,
             "invisibleMeshesCollisionMask": 2
           }
         },
@@ -1051,7 +1051,7 @@
         "serializationType": "map"
       },
       "data": {
-        "542": {
+        "535": {
           "json": {
             "gizmo": 0
           }
