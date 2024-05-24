@@ -2,10 +2,10 @@
   "ecs7": true,
   "runtimeVersion": "7",
   "display": {
-    "title": "mateverse",
+    "title": "MATEVERSE",
     "favicon": "favicon_asset",
     "description": "",
-    "navmapThumbnail": ""
+    "navmapThumbnail": "images/mate.jpg"
   },
   "contact": {
     "name": "author-name",
@@ -46,9 +46,7 @@
     }
   ],
   "name": "mateverse",
-  "worldConfiguration": {
-    "name": "pejo.dcl.eth"
-  },
+  
   "featureToggles": {
     "voiceChat": "enabled",
     "portableExperiences": "enabled"
