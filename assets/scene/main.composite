@@ -90,27 +90,6 @@
         "serializationType": "transform"
       },
       "data": {
-        "513": {
-          "json": {
-            "position": {
-              "x": 8,
-              "y": 0,
-              "z": 8
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            },
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "parent": 0
-          }
-        },
         "514": {
           "json": {
             "position": {
@@ -174,44 +153,23 @@
             "parent": 0
           }
         },
-        "517": {
-          "json": {
-            "position": {
-              "x": 24,
-              "y": 0,
-              "z": 8
-            },
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
-            },
-            "scale": {
-              "x": 1,
-              "y": 1,
-              "z": 1
-            },
-            "parent": 0
-          }
-        },
         "518": {
           "json": {
             "position": {
-              "x": 2.5,
+              "x": 23.25,
               "y": 0,
               "z": 3.75
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0.258819043636322,
+              "z": 0,
+              "w": -0.9659258127212524
             },
             "scale": {
               "x": 0.5,
               "y": 0.5,
               "z": 0.5
-            },
-            "rotation": {
-              "x": 0,
-              "y": 0,
-              "z": 0,
-              "w": 1
             },
             "parent": 0
           }
@@ -219,20 +177,20 @@
         "519": {
           "json": {
             "position": {
-              "x": 2.240000009536743,
+              "x": 7.5,
               "y": 0,
-              "z": 10.789999961853027
+              "z": 27.25
+            },
+            "rotation": {
+              "x": -0.6602294445037842,
+              "y": 0.25317394733428955,
+              "z": -0.25317394733428955,
+              "w": -0.6602294445037842
             },
             "scale": {
               "x": 2,
               "y": 2,
               "z": 2
-            },
-            "rotation": {
-              "x": 0.6602294445037842,
-              "y": -0.25317394733428955,
-              "z": 0.25317394733428955,
-              "w": 0.6602294445037842
             },
             "parent": 0
           }
@@ -240,20 +198,20 @@
         "520": {
           "json": {
             "position": {
-              "x": 1.5700000524520874,
+              "x": 5.5,
               "y": 0,
-              "z": 14.069999694824219
+              "z": 30
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0.35804206132888794,
+              "z": 0,
+              "w": -0.9337054491043091
             },
             "scale": {
               "x": 2,
               "y": 2,
               "z": 2
-            },
-            "rotation": {
-              "x": 0,
-              "y": -0.35804206132888794,
-              "z": 0,
-              "w": 0.9337054491043091
             },
             "parent": 0
           }
@@ -261,20 +219,20 @@
         "521": {
           "json": {
             "position": {
-              "x": 1,
+              "x": 7.5,
               "y": 0,
-              "z": 9.75
-            },
-            "scale": {
-              "x": 2,
-              "y": 2,
-              "z": 2
+              "z": 30.5
             },
             "rotation": {
               "x": 0,
               "y": 0.3826834261417389,
               "z": 0,
               "w": 0.9238795042037964
+            },
+            "scale": {
+              "x": 2,
+              "y": 2,
+              "z": 2
             },
             "parent": 0
           }
@@ -284,7 +242,7 @@
             "position": {
               "x": 18.5,
               "y": 0.25,
-              "z": 12
+              "z": 28
             },
             "rotation": {
               "x": 0,
@@ -320,163 +278,362 @@
             },
             "parent": 0
           }
-        }
-      }
-    },
-    {
-      "name": "core::GltfContainer",
-      "jsonSchema": {
-        "type": "object",
-        "properties": {},
-        "serializationType": "protocol-buffer",
-        "protocolBuffer": "PBGltfContainer"
-      },
-      "data": {
-        "513": {
+        },
+        "524": {
           "json": {
-            "src": "assets/builder/grass/Grass.glb",
-            "visibleMeshesCollisionMask": 1,
-            "invisibleMeshesCollisionMask": 2
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 0
           }
         },
-        "514": {
+        "525": {
           "json": {
-            "src": "assets/builder/grass_sprout/Grass_03/Grass_03.glb",
-            "visibleMeshesCollisionMask": 1,
-            "invisibleMeshesCollisionMask": 2
+            "position": {
+              "x": 8,
+              "y": 0,
+              "z": 8
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 524
           }
         },
-        "515": {
+        "526": {
           "json": {
-            "src": "assets/builder/tri-spike_grass/Grass_05/Grass05.glb",
-            "visibleMeshesCollisionMask": 1,
-            "invisibleMeshesCollisionMask": 2
+            "position": {
+              "x": 8,
+              "y": 0,
+              "z": 24
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 524
           }
         },
-        "516": {
+        "527": {
           "json": {
-            "src": "assets/scene/waterDrop.glb",
-            "visibleMeshesCollisionMask": 1,
-            "invisibleMeshesCollisionMask": 2
+            "position": {
+              "x": 8,
+              "y": 0,
+              "z": 40
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 524
           }
         },
-        "517": {
+        "528": {
           "json": {
-            "src": "assets/builder/grass/Grass.glb",
-            "visibleMeshesCollisionMask": 1,
-            "invisibleMeshesCollisionMask": 2
+            "position": {
+              "x": 24,
+              "y": 0,
+              "z": 8
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 524
           }
         },
-        "518": {
+        "529": {
           "json": {
-            "src": "assets/scene/cow.glb",
-            "visibleMeshesCollisionMask": 1,
-            "invisibleMeshesCollisionMask": 2
+            "position": {
+              "x": 24,
+              "y": 0,
+              "z": 24
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 524
           }
         },
-        "519": {
+        "530": {
           "json": {
-            "src": "assets/builder/wooden_wheel/Wheel_01/Wheel_01.glb",
-            "visibleMeshesCollisionMask": 1,
-            "invisibleMeshesCollisionMask": 2
+            "position": {
+              "x": 24,
+              "y": 0,
+              "z": 40
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 524
           }
         },
-        "520": {
+        "531": {
           "json": {
-            "src": "assets/builder/wooden_wheel/Wheel_01/Wheel_01.glb",
-            "visibleMeshesCollisionMask": 1,
-            "invisibleMeshesCollisionMask": 2
+            "position": {
+              "x": 40,
+              "y": 0,
+              "z": 8
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 524
           }
         },
-        "521": {
+        "532": {
           "json": {
-            "src": "assets/builder/wooden_wheel/Wheel_01/Wheel_01.glb",
-            "visibleMeshesCollisionMask": 1,
-            "invisibleMeshesCollisionMask": 2
+            "position": {
+              "x": 40,
+              "y": 0,
+              "z": 24
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 524
           }
         },
-        "522": {
+        "533": {
           "json": {
-            "src": "assets/scene/breakfast_argentina_edition.glb",
-            "visibleMeshesCollisionMask": 2,
-            "invisibleMeshesCollisionMask": 0
+            "position": {
+              "x": 40,
+              "y": 0,
+              "z": 40
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 524
           }
         },
-        "523": {
+        "535": {
           "json": {
-            "src": "assets/scene/mesa campestre.glb",
-            "visibleMeshesCollisionMask": 2,
-            "invisibleMeshesCollisionMask": 0
-          }
-        }
-      }
-    },
-    {
-      "name": "core-schema::Name",
-      "jsonSchema": {
-        "type": "object",
-        "properties": {
-          "value": {
-            "type": "string",
-            "serializationType": "utf8-string"
-          }
-        },
-        "serializationType": "map"
-      },
-      "data": {
-        "513": {
-          "json": {
-            "value": "Grass"
+            "position": {
+              "x": 2.25,
+              "y": 0,
+              "z": 3.75
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0.13052618503570557,
+              "z": 0,
+              "w": 0.9914448857307434
+            },
+            "scale": {
+              "x": 0.5,
+              "y": 0.5,
+              "z": 0.5
+            },
+            "parent": 0
           }
         },
-        "514": {
+        "536": {
           "json": {
-            "value": "Grass Sprout"
+            "position": {
+              "x": 12.25,
+              "y": 0,
+              "z": 27.5
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0.5,
+              "z": 0,
+              "w": 0.8660253882408142
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 0
           }
         },
-        "515": {
+        "538": {
           "json": {
-            "value": "Tri-Spike Grass"
+            "position": {
+              "x": 9.25,
+              "y": 0,
+              "z": 29
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 0
           }
         },
-        "516": {
+        "539": {
           "json": {
-            "value": "waterDrop.glb"
+            "position": {
+              "x": 36.25,
+              "y": 0,
+              "z": 40.75
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 0
           }
         },
-        "517": {
+        "540": {
           "json": {
-            "value": "Grass"
+            "position": {
+              "x": 25.75,
+              "y": 0,
+              "z": 40.75
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 0
           }
         },
-        "518": {
+        "541": {
           "json": {
-            "value": "cow.glb"
+            "position": {
+              "x": 16.25,
+              "y": 0,
+              "z": 40.75
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 0
           }
         },
-        "519": {
+        "542": {
           "json": {
-            "value": "Wooden Wheel"
-          }
-        },
-        "520": {
-          "json": {
-            "value": "Wooden Wheel"
-          }
-        },
-        "521": {
-          "json": {
-            "value": "Wooden Wheel"
-          }
-        },
-        "522": {
-          "json": {
-            "value": "breakfast_argentina_edition.glb"
-          }
-        },
-        "523": {
-          "json": {
-            "value": "mesa campestre.glb"
+            "position": {
+              "x": 7.75,
+              "y": 0,
+              "z": 40.75
+            },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0,
+              "w": 1
+            },
+            "scale": {
+              "x": 1,
+              "y": 1,
+              "z": 1
+            },
+            "parent": 0
           }
         }
       }
@@ -525,6 +682,359 @@
               }
             ]
           }
+        },
+        "535": {
+          "json": {
+            "states": [
+              {
+                "clip": "Eating",
+                "playing": true,
+                "weight": 1,
+                "speed": 1,
+                "loop": true,
+                "shouldReset": false
+              },
+              {
+                "clip": "Idle",
+                "playing": false,
+                "weight": 1,
+                "speed": 1,
+                "loop": false,
+                "shouldReset": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "core::GltfContainer",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {},
+        "serializationType": "protocol-buffer",
+        "protocolBuffer": "PBGltfContainer"
+      },
+      "data": {
+        "514": {
+          "json": {
+            "src": "assets/builder/grass_sprout/Grass_03/Grass_03.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "515": {
+          "json": {
+            "src": "assets/builder/tri-spike_grass/Grass_05/Grass05.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "516": {
+          "json": {
+            "src": "assets/scene/waterDrop.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "518": {
+          "json": {
+            "src": "assets/scene/cow.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "519": {
+          "json": {
+            "src": "assets/builder/wooden_wheel/Wheel_01/Wheel_01.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "520": {
+          "json": {
+            "src": "assets/builder/wooden_wheel/Wheel_01/Wheel_01.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "521": {
+          "json": {
+            "src": "assets/builder/wooden_wheel/Wheel_01/Wheel_01.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "522": {
+          "json": {
+            "src": "assets/scene/breakfast_argentina_edition.glb",
+            "visibleMeshesCollisionMask": 2,
+            "invisibleMeshesCollisionMask": 0
+          }
+        },
+        "523": {
+          "json": {
+            "src": "assets/scene/mesa campestre.glb",
+            "visibleMeshesCollisionMask": 2,
+            "invisibleMeshesCollisionMask": 0
+          }
+        },
+        "525": {
+          "json": {
+            "src": "assets/builder/grass/Grass.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "526": {
+          "json": {
+            "src": "assets/builder/grass/Grass.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "527": {
+          "json": {
+            "src": "assets/builder/grass/Grass.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "528": {
+          "json": {
+            "src": "assets/builder/grass/Grass.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "529": {
+          "json": {
+            "src": "assets/builder/grass/Grass.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "530": {
+          "json": {
+            "src": "assets/builder/grass/Grass.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "531": {
+          "json": {
+            "src": "assets/builder/grass/Grass.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "532": {
+          "json": {
+            "src": "assets/builder/grass/Grass.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "533": {
+          "json": {
+            "src": "assets/builder/grass/Grass.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "535": {
+          "json": {
+            "src": "assets/scene/cow.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "536": {
+          "json": {
+            "src": "assets/builder/rustic_wheelbarrow/WheelBarrow_01/WheelBarrow_01.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "538": {
+          "json": {
+            "src": "assets/builder/gunpowder_barrel/Barrel_01/Barrel_01.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "539": {
+          "json": {
+            "src": "assets/builder/green_tall_squared_tree/TreeTall_02/TreeTall_02.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "540": {
+          "json": {
+            "src": "assets/builder/green_tall_squared_tree/TreeTall_02/TreeTall_02.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "541": {
+          "json": {
+            "src": "assets/builder/green_tall_squared_tree/TreeTall_02/TreeTall_02.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        },
+        "542": {
+          "json": {
+            "src": "assets/builder/green_tall_squared_tree/TreeTall_02/TreeTall_02.glb",
+            "visibleMeshesCollisionMask": 1,
+            "invisibleMeshesCollisionMask": 2
+          }
+        }
+      }
+    },
+    {
+      "name": "core-schema::Name",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "string",
+            "serializationType": "utf8-string"
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {
+        "514": {
+          "json": {
+            "value": "Grass Sprout"
+          }
+        },
+        "515": {
+          "json": {
+            "value": "Tri-Spike Grass"
+          }
+        },
+        "516": {
+          "json": {
+            "value": "waterDrop.glb"
+          }
+        },
+        "518": {
+          "json": {
+            "value": "cow.glb"
+          }
+        },
+        "519": {
+          "json": {
+            "value": "Wooden Wheel"
+          }
+        },
+        "520": {
+          "json": {
+            "value": "Wooden Wheel"
+          }
+        },
+        "521": {
+          "json": {
+            "value": "Wooden Wheel"
+          }
+        },
+        "522": {
+          "json": {
+            "value": "breakfast_argentina_edition.glb"
+          }
+        },
+        "523": {
+          "json": {
+            "value": "mesa campestre.glb"
+          }
+        },
+        "524": {
+          "json": {
+            "value": "Ground"
+          }
+        },
+        "525": {
+          "json": {
+            "value": "Tile 1"
+          }
+        },
+        "526": {
+          "json": {
+            "value": "Tile 2"
+          }
+        },
+        "527": {
+          "json": {
+            "value": "Tile 3"
+          }
+        },
+        "528": {
+          "json": {
+            "value": "Tile 4"
+          }
+        },
+        "529": {
+          "json": {
+            "value": "Tile 5"
+          }
+        },
+        "530": {
+          "json": {
+            "value": "Tile 6"
+          }
+        },
+        "531": {
+          "json": {
+            "value": "Tile 7"
+          }
+        },
+        "532": {
+          "json": {
+            "value": "Tile 8"
+          }
+        },
+        "533": {
+          "json": {
+            "value": "Tile 9"
+          }
+        },
+        "535": {
+          "json": {
+            "value": "cow.glb"
+          }
+        },
+        "536": {
+          "json": {
+            "value": "Rustic Wheelbarrow"
+          }
+        },
+        "538": {
+          "json": {
+            "value": "Gunpowder Barrel"
+          }
+        },
+        "539": {
+          "json": {
+            "value": "Green Tall Squared Tree"
+          }
+        },
+        "540": {
+          "json": {
+            "value": "Green Tall Squared Tree"
+          }
+        },
+        "541": {
+          "json": {
+            "value": "Green Tall Squared Tree"
+          }
+        },
+        "542": {
+          "json": {
+            "value": "Green Tall Squared Tree"
+          }
         }
       }
     },
@@ -541,7 +1051,7 @@
         "serializationType": "map"
       },
       "data": {
-        "522": {
+        "542": {
           "json": {
             "gizmo": 0
           }
@@ -958,7 +1468,6 @@
                 "entity": 0,
                 "open": true,
                 "children": [
-                  513,
                   514,
                   515,
                   518,
@@ -968,12 +1477,15 @@
                   522,
                   523,
                   516,
-                  517
+                  524,
+                  535,
+                  536,
+                  538,
+                  539,
+                  540,
+                  541,
+                  542
                 ]
-              },
-              {
-                "entity": 513,
-                "children": []
               },
               {
                 "entity": 514,
@@ -1012,7 +1524,89 @@
                 "children": []
               },
               {
-                "entity": 517,
+                "entity": 1,
+                "children": []
+              },
+              {
+                "entity": 2,
+                "children": []
+              },
+              {
+                "entity": 524,
+                "children": [
+                  525,
+                  526,
+                  527,
+                  528,
+                  529,
+                  530,
+                  531,
+                  532,
+                  533
+                ]
+              },
+              {
+                "entity": 525,
+                "children": []
+              },
+              {
+                "entity": 526,
+                "children": []
+              },
+              {
+                "entity": 527,
+                "children": []
+              },
+              {
+                "entity": 528,
+                "children": []
+              },
+              {
+                "entity": 529,
+                "children": []
+              },
+              {
+                "entity": 530,
+                "children": []
+              },
+              {
+                "entity": 531,
+                "children": []
+              },
+              {
+                "entity": 532,
+                "children": []
+              },
+              {
+                "entity": 533,
+                "children": []
+              },
+              {
+                "entity": 535,
+                "children": []
+              },
+              {
+                "entity": 536,
+                "children": []
+              },
+              {
+                "entity": 538,
+                "children": []
+              },
+              {
+                "entity": 539,
+                "children": []
+              },
+              {
+                "entity": 540,
+                "children": []
+              },
+              {
+                "entity": 541,
+                "children": []
+              },
+              {
+                "entity": 542,
                 "children": []
               }
             ]
@@ -1072,11 +1666,11 @@
               },
               {
                 "type": "increment_counter",
-                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"amount\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"int32\"}}},\"serializationType\":\"map\"}"
               },
               {
                 "type": "decrease_counter",
-                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"amount\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"int32\"}}},\"serializationType\":\"map\"}"
               },
               {
                 "type": "play_sound",
@@ -1173,6 +1767,62 @@
               {
                 "type": "hide_image",
                 "jsonSchema": "{\"type\":\"object\",\"properties\":{\"imageEntity\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"int32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "damage",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"radius\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"layer\":{\"type\":\"string\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"string\",\"enum\":[\"all\",\"player\",\"non_player\"],\"default\":\"all\",\"serializationType\":\"enum-string\",\"enumObject\":{\"ALL\":\"all\",\"PLAYER\":\"player\",\"NON_PLAYER\":\"non_player\"}}},\"hits\":{\"type\":\"integer\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"integer\",\"serializationType\":\"int32\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "move_player_here",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "place_on_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "rotate_as_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "place_on_camera",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "rotate_as_camera",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "set_position",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"y\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"z\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"relative\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "set_rotation",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"y\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"z\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"relative\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "set_scale",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"x\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"y\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"z\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"relative\":{\"type\":\"boolean\",\"serializationType\":\"optional\",\"optionalJsonSchema\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"}}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "follow_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"speed\":{\"type\":\"number\",\"serializationType\":\"float32\"},\"x\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"},\"y\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"},\"z\":{\"type\":\"boolean\",\"serializationType\":\"boolean\"},\"minDistance\":{\"type\":\"number\",\"serializationType\":\"float32\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "stop_following_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "random",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"actions\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"serializationType\":\"array\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "batch",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"actions\":{\"type\":\"array\",\"items\":{\"type\":\"string\",\"serializationType\":\"utf8-string\"},\"serializationType\":\"array\"}},\"serializationType\":\"map\"}"
+              },
+              {
+                "type": "heal_player",
+                "jsonSchema": "{\"type\":\"object\",\"properties\":{\"multiplier\":{\"type\":\"integer\",\"serializationType\":\"int32\"}},\"serializationType\":\"map\"}"
               }
             ]
           }
@@ -1221,9 +1871,6 @@
         "serializationType": "map"
       },
       "data": {
-        "513": {
-          "json": {}
-        },
         "514": {
           "json": {}
         },
@@ -1231,9 +1878,6 @@
           "json": {}
         },
         "516": {
-          "json": {}
-        },
-        "517": {
           "json": {}
         },
         "518": {
@@ -1252,6 +1896,142 @@
           "json": {}
         },
         "523": {
+          "json": {}
+        },
+        "535": {
+          "json": {}
+        },
+        "536": {
+          "json": {}
+        },
+        "538": {
+          "json": {}
+        },
+        "539": {
+          "json": {}
+        },
+        "540": {
+          "json": {}
+        },
+        "541": {
+          "json": {}
+        },
+        "542": {
+          "json": {}
+        }
+      }
+    },
+    {
+      "name": "inspector::Lock",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "boolean",
+            "serializationType": "boolean"
+          }
+        },
+        "serializationType": "map"
+      },
+      "data": {
+        "524": {
+          "json": {
+            "value": true
+          }
+        },
+        "525": {
+          "json": {
+            "value": true
+          }
+        },
+        "526": {
+          "json": {
+            "value": true
+          }
+        },
+        "527": {
+          "json": {
+            "value": true
+          }
+        },
+        "528": {
+          "json": {
+            "value": true
+          }
+        },
+        "529": {
+          "json": {
+            "value": true
+          }
+        },
+        "530": {
+          "json": {
+            "value": true
+          }
+        },
+        "531": {
+          "json": {
+            "value": true
+          }
+        },
+        "532": {
+          "json": {
+            "value": true
+          }
+        },
+        "533": {
+          "json": {
+            "value": true
+          }
+        }
+      }
+    },
+    {
+      "name": "inspector::Ground",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {},
+        "serializationType": "map"
+      },
+      "data": {
+        "524": {
+          "json": {}
+        }
+      }
+    },
+    {
+      "name": "inspector::Tile",
+      "jsonSchema": {
+        "type": "object",
+        "properties": {},
+        "serializationType": "map"
+      },
+      "data": {
+        "525": {
+          "json": {}
+        },
+        "526": {
+          "json": {}
+        },
+        "527": {
+          "json": {}
+        },
+        "528": {
+          "json": {}
+        },
+        "529": {
+          "json": {}
+        },
+        "530": {
+          "json": {}
+        },
+        "531": {
+          "json": {}
+        },
+        "532": {
+          "json": {}
+        },
+        "533": {
           "json": {}
         }
       }

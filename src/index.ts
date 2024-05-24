@@ -14,7 +14,6 @@ import { pickingGlassSystem } from './modules/beerGlass'
 import { createBeerGlass, createTap, SyncEntityIDs } from './modules/factory'
 import { tapPumpSystem } from './modules/tap'
 import { setupUi } from './ui'
-import { syncEntity } from '@dcl/sdk/network'
 import { setGaucho } from './modules/gaucho'
 
 export function main() {
