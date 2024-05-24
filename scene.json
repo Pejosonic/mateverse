@@ -46,7 +46,9 @@
     }
   ],
   "name": "mateverse",
-  
+  "worldConfiguration": {
+    "name": "pejo.dcl.eth"
+  },
   "featureToggles": {
     "voiceChat": "enabled",
     "portableExperiences": "enabled"
